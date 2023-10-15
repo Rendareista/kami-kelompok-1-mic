@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+    <link rel="stylesheet" href="fontawesome-free-6.4.2-web/css/all.css">
+    <link rel="stylesheet" href="nyobasidebar.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://fontawesome.com/v4/icon/caret-down"></script>
+</head>
+<body>
+    <nav class="sidebar">
+        <div class="text">SKENA</div>
+        <ul>
+            <li>
+                <a href="nyobasidebar.html" class="feat-btn">Dashboard</a>
+            </li> 
+            <li>
+                <a href="#" class="serv-btn" >Features
+                    <span><i class="fas fa-caret-down second" ></i></span>
+                </a>
+                <ul class="serv-show">
+                    <li><a href="clothesdesign.html">Clothes Design
+                        
+                        </a>
+                    </li>
+                    
+                    <li><a href="logodesign.html">Logo Design</a></li>
+                </ul>
+            </li> 
+            <li>
+                <a href="#" class="secondary-btn" >Transaction
+                    <span><i class="fas fa-caret-down second" ></i></span>
+                </a>
+                <ul class="secondary-show">
+                    <li><a href="keranjang.html">Keranjang</a></li>
+                    <li><a href="pesanan.html">Pesanan</a></li>
+                </ul>
+            <li><a href="">Feedback</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Dashboard</h1>
+    </header>
+    <div class="dashboard">
+        <div class="widget">
+            <h2>Data Pengguna</h2>
+            <p>Jumlah Pengguna: 100</p>
+        </div>
+        <div class="widget">
+            <h2>Data Penjualan</h2>
+            <p>Total Penjualan: $10,000</p>
+        </div>
+        <div class="widget">
+            <h2>Data Statistik</h2>
+            <p>Pengunjung Unik: 5,000</p>
+        </div>
+    </div>
+
+    <script>
+        $('.feat-btn').click(function(){
+            $('nav ul .feat-show').toggleClass("show");
+        });
+        $('.serv-btn').click(function(){
+            $('nav ul .serv-show').toggleClass("show1");
+        });
+        $('.secondary-btn').click(function(){
+            $('nav ul .secondary-show').toggleClass("show2");
+        });
+    </script>
+</body>
+</html>

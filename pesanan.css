@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    margin-left: 7cm;
+    margin-right: 0.5cm;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+.sidebar {
+    position: fixed;
+    width: 250px;
+    left: 0;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+}
+
+.sidebar .text {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 65px;
+    text-align: center;
+    background: 1e1e1e;
+    letter-spacing: 1px;
+
+}
+
+nav ul {
+    background-color: rgb(91, 92, 84);
+    height: 100%;
+    width: 100%;
+    list-style: none;
+}
+
+nav ul li {
+    line-height: 45px;
+    border-bottom: 1px solid rgb(0, 0, 0)
+}
+
+nav ul li a {
+    position: relative;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 40px;
+    font-weight: 500;
+    display: block;
+    width: 100%;
+    border-left: 5px solid transparent;
+}
+
+nav ul li a:hover {
+    color: rgb(0, 0, 0);
+    background: #555353;
+    border-left-color: cyan;
+}
+
+nav ul ul {
+    position: static;
+    display: none;
+}
+
+nav ul .feat-show.show {
+    display: block;
+}
+
+nav ul .serv-show.show1 {
+    display: block;
+}
+
+nav ul .secondary-show.show2 {
+    display: block;
+}
+
+nav ul ul li {
+    line-height: 42px;
+    border-bottom: none;
+}
+
+nav ul ul li a {
+    font-size: 19px;
+    color: rgb(29, 160, 212);
+    padding-left: 80px;
+}
+nav ul li a span {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    font-size: 22px;
+    transition: transform 0.4s;
+}
+nav ul li a:hover span{
+    transform: translateY(-50%)rotate(-180deg);
+    
+}
+
+header {
+    background-color: #b9b9b980;
+    color: #fff;
+    text-align: center;
+    padding: 14px;
+}
+
+.order-container {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+#order-list {
+    list-style: none;
+    padding: 0;
+}
+
+.order-item {
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
