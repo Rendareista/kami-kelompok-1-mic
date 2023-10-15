@@ -33,9 +33,6 @@ Software Requirements Specification for SKENA Version 1.0 approved
 
 Revision History
 Name	Date	Reason For Changes	Version
-			
-			
- 
 1.	**Introduction**
 <br>
 1. 1 Purpose 
@@ -51,15 +48,15 @@ Name	Date	Reason For Changes	Version
 <br>
 2. 1	Product Perspective
 <p>Website ini bernama SKENA. Skena merupakan website yang memiliki peran sebagai jasa pembuatan dan penjualan desain. Website Skena memberikan banyak peluang untuk orang-orang terutama mahasiswa DKV yang memiliki keahlian dalam membuat desain, baik desain baju, logo, poster, bahkan desain apapun untuk menjualkan desainnya. Website Skena berfokuskan kepada mahasiswa DKV yang mana dapat membantu mahasiswa DKV memiliki nilai jual dan peluang usaha yang sesuai dengan setiap desain yang dibuatnya. Tak hanya mahasiswa DKV, setiap orang yang memiliki minat dan bakat dalam mendesain produk, dapat menggunakan website Skena. </p>
-2. 2	Product Functions
-●	Membuat desain secara gratis dengan berbagai contoh / referensi yang menarik
-●	Mengenalkan desain produk kepada khalayak umum
-●	Memberikan nilai jual kepada desain produk yang sesuai
-●	Membantu mahasiswa DKV dan pecinta desain mempromosikan desainnya
+<br>2. 2	Product Functions
+<br>●	Membuat desain secara gratis dengan berbagai contoh / referensi yang menarik
+<br>●	Mengenalkan desain produk kepada khalayak umum
+<br>●	Memberikan nilai jual kepada desain produk yang sesuai
+<br>●	Membantu mahasiswa DKV dan pecinta desain mempromosikan desainnya
 2. 3	User Classes and Characteristics
 Kategori Pengguna Tugas	Hak Akses ke aplikasi Kemampuan yang harus dimiliki
-Admin 	Melihat Laporan	Memasukkan, Edit, Menghapus Data	Memantau laporan hasil penjualan
-	Edit akun penjual	Memasukkan, Edit, Menghapus Data	Mengedit akun penjual, menghapus yang tidak sesuai dengan perjanjian kerjasama mitra
+Admin 	: <br>
+Melihat Laporan	Memasukkan, Edit, Menghapus Data, Memantau laporan hasil penjualan, Edit akun penjual, Memasukkan, Edit, Menghapus Data	Mengedit akun penjual, menghapus yang tidak sesuai dengan perjanjian kerjasama mitra
 	Edit produk	Memasukkan, Edit, Menghapus Data produk	Memantau produk agar tidak terjadi plagiarisme
 	Mengirim notifikasi ke penjual, pembeli	Mengatur, mengedit, memberikan notifikasi terkait update website, produk, atau mitra	Memantau perubahan secara real time Penjual	
 Melihat Laporan	Memasukkan, Edit, Menghapus Data 
