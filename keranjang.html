@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keranjang Pesanan</title>
+    <link rel="stylesheet" href="nyobasidebar.css">
+    <link rel="stylesheet" href="keranjang.css">
+    <link rel="stylesheet" href="clothesdesign.css">
+    <link rel="stylesheet" href="fontawesome-free-6.4.2-web/css/all.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://fontawesome.com/v4/icon/caret-down"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+
+</head>
+<body>
+    <nav class="sidebar">
+        <div class="text">SKENA</div>
+        <ul>
+            <li>
+                <a href="nyobasidebar.html" class="feat-btn">Dashboard</a>
+            </li> 
+            <li>
+                <a href="#" class="serv-btn" >Features
+                    <span><i class="fas fa-caret-down second" ></i></span>
+                </a>
+                <ul class="serv-show">
+                    <li><a href="clothesdesign.html">Clothes Design
+                        
+                        </a>
+                    </li>
+                    
+                    <li><a href="logodesign.html">Logo Design</a></li>
+                </ul>
+            </li> 
+            <li>
+                <a href="#" class="secondary-btn" >Transaction
+                    <span><i class="fas fa-caret-down second" ></i></span>
+                </a>
+                <ul class="secondary-show">
+                    <li><a href="keranjang.html">Keranjang</a></li>
+                    <li><a href="pesanan.html">Pesanan</a></li>
+                </ul>
+            <li><a href="">Feedback</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Keranjang Pesanan</h1>
+    </header>
+    <div class="cart-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>Harga</th>
+                    <th>Jumlah</th>
+                    <th>Total</th>
+                    <th>Keterangan</th>
+                </tr>
+            </thead>
+            <tbody id="cart-items">
+                <!-- Item keranjang akan ditampilkan di sini -->
+            </tbody>
+        </table>
+        <div class="cart-summary">
+            <p>Total Harga: <span id="total-price">0</span></p>
+            <button id="checkout-btn">Checkout</button>
+        </div>
+    </div>
+    <script>
+    $('.feat-btn').click(function(){
+        $('nav ul .feat-show').toggleClass("show");
+    });
+    $('.serv-btn').click(function(){
+        $('nav ul .serv-show').toggleClass("show1");
+    });
+    $('.secondary-btn').click(function(){
+        $('nav ul .secondary-show').toggleClass("show2");
+    });
+    </script>
+</body>
+</html>

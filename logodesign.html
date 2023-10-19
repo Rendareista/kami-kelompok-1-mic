@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logo Design</title>
+    <link rel="stylesheet" href="nyobasidebar.css">
+    <link rel="stylesheet" href="logodesign.css">
+    <link rel="stylesheet" href="fontawesome-free-6.4.2-web/css/all.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://fontawesome.com/v4/icon/caret-down"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+</head>
+<body>
+    <nav class="sidebar">
+        <div class="text">SKENA</div>
+        <ul>
+            <li>
+                <a href="nyobasidebar.html" class="feat-btn">Dashboard</a>
+            </li> 
+            <li>
+                <a href="#" class="serv-btn" >Features
+                    <span><i class="fas fa-caret-down second" ></i></span>
+                </a>
+                <ul class="serv-show">
+                    <li><a href="clothesdesign.html">Clothes Design
+                        
+                        </a>
+                    </li>
+                    
+                    <li><a href="logodesign.html">Logo Design</a></li>
+                </ul>
+            </li> 
+            <li>
+                <a href="#" class="secondary-btn" >Transaction
+                    <span><i class="fas fa-caret-down second" ></i></span>
+                </a>
+                <ul class="secondary-show">
+                    <li><a href="keranjang.html">Keranjang</a></li>
+                    <li><a href="pesanan.html">Pesanan</a></li>
+                </ul>
+            <li><a href="">Feedback</a></li>
+        </ul>
+    </nav>
+
+    <div class="image-gallery">
+        <div class="image">
+            <img src="c638e4658615e3cf36427309591712a1.jpg" alt="Gambar 1">
+            <div class="caption">flowerrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr</div>
+        </div>
+        <div class="image">
+            <img src="pngtree-women-s-clothing-logo-design-png-image_5343728.jpg" alt="Gambar 2">
+            <div class="caption">Keterangan Gambar akuuuuuuuuuuubbbbbbbbsbbfsbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbsbbbf </div>
+        </div>
+        <div class="image">
+            <img src="artfuka2.jpg" alt="Gambar 2">
+            <div class="caption">Keterangan Gambar 2</div>
+        </div>
+        <div class="image">
+            <img src="logo-baju-kaki-pancing.jpg" alt="Gambar 2">
+            <div class="caption">Keterangan Gambar 2</div>
+        </div>
+        <div class="image">
+            <img src="th (1).jpg" alt="Gambar 2">
+            <div class="caption">Keterangan Gambar 2</div>
+        </div>
+        <div class="image">
+            <img src="juuu.jpg" alt="Gambar 2">
+            <div class="caption">Keterangan Gambar 2</div>
+        </div>
+        <div class="image">
+            <img src="4a9ccc8058421.560b68e0e6d7d.jpg" alt="Gambar 2">
+            <div class="caption">Keterangan Gambar 2</div>
+        </div>
+        <div class="image">
+            <img src="logo jdm jogja distro muslim.jpg" alt="Gambar 2">
+            <div class="caption">Keterangan Gambar 2</div>
+        </div>
+        
+        <!-- Tambahkan lebih banyak gambar dan keterangan jika diperlukan -->
+    </div>
+
+    <script>
+    
+        $('.feat-btn').click(function(){
+            $('nav ul .feat-show').toggleClass("show");
+        });
+        $('.serv-btn').click(function(){
+            $('nav ul .serv-show').toggleClass("show1");
+        });
+        $('.secondary-btn').click(function(){
+            $('nav ul .secondary-show').toggleClass("show2");
+        });
+        $('nav ul li a').click(function(){
+    $(this).addClass("active").parent().siblings().find('a').removeClass("active");
+});
+        
+    </script>
+</body>
+</html>
