@@ -39,9 +39,9 @@ Name	Date	Reason For Changes	Version
 <p>Di era yang berkembang pesat seperti sekarang ini, teknologi menjadi salah satu penyumbang wadah yang semakin pesat dalam perubahannya. Khususnya dalam dunia industri, desain sangat dibutuhkan baik untuk komersial maupun non komersial sebagai pengikat pelanggan/orang yang memang butuh dalam bidangnya. Pelanggan juga ingin menemukan dan mencari jasa desain yang efisien, sesuai dengan kebutuhan mereka, dan cepat tanggap jika memang ada perubahan. Untuk itu, pembuatan website jasa desain dapat digunakan oleh khalayak umum yang mana dapat memberikan peluang dalam dunia industri, khususnya nya yang bekerja/berkecimpung di dunia desain.</p>
 1. 2	Document Conventions
 <p>Definisi dan istilah
-<br>●	Website: Sebuah halaman yang dapat diakses di internet dengan isi yang bersifat informatif, baik secara pendidikan, promosi produk, dll.
-<br>●	Skena: Nama dari jasa pembuatan desain kami dengan melibatkan berita terkini
-<br>●	DKV: Desain Komunikasi Visual</p>
+<br> ●	Website: Sebuah halaman yang dapat diakses di internet dengan isi yang bersifat informatif, baik secara pendidikan, promosi produk, dll.
+<br> ●	Skena: Nama dari jasa pembuatan desain kami dengan melibatkan berita terkini
+<br> ●	DKV: Desain Komunikasi Visual</p>
 1. 3	Intended Audience and Reading Suggestions
 <p>Website Skena diperuntukkan untuk para pedesain, terutama mahasiswa DKV yang ingin mengambangkan bakat nya dalam mendesain dengan penghasilan yang didapatkan dapat membatu mahasiswa ketika berkuliah. Selain itu, kami mendukung adanya UKM / Warga / masyarakat yang ingin belajar mendesain sekaligus belajar menggunakan teknologi internet dalam melakukan jual beli jasa desain ini.</p>
 <br>
@@ -61,9 +61,9 @@ Name	Date	Reason For Changes	Version
 <br>
 2. 3	User Classes and Characteristics
 <br>
-Kategori Pengguna Tugas	Hak Akses ke aplikasi Kemampuan yang harus dimiliki
-Admin 	: <br>
-<p> Melihat Laporan Memasukkan, Edit, Menghapus Data, Memantau laporan hasil penjualan, Edit akun penjual, Memasukkan, Edit, Menghapus Data, Mengedit akun penjual, menghapus yang tidak sesuai dengan perjanjian kerjasama mitra
+| Kategori Pengguna | Tugas | Hak Akses ke aplikasi | Kemampuan yang harus dimiliki |
+|-------------------|-------|-----------------------|-------------------------------|
+| Admin | |Melihat Laporan | |Memasukkan, Edit, Menghapus Data | Memantau laporan hasil penjualan, Edit akun penjual, Memasukkan, Edit, Menghapus Data, Mengedit akun penjual, menghapus yang tidak sesuai dengan perjanjian kerjasama mitra
 	Edit produk	Memasukkan, Edit, Menghapus Data produk	Memantau produk agar tidak terjadi plagiarisme
 	Mengirim notifikasi ke penjual, pembeli	Mengatur, mengedit, memberikan notifikasi terkait update website, produk, atau mitra	Memantau perubahan secara real time Penjual	
 Melihat Laporan	Memasukkan, Edit, Menghapus Data 
@@ -92,39 +92,53 @@ Memberikan feedback Mengedit, membuat feedback terkait desain, terkait kecepatan
 <br>
 2. 4	Operating Environment
 <br> ●	Server Operasi
-<br>	
-Server website mengadopsi windows sebagai sistem pengoperasiannya
+<br>	Server website mengadopsi windows sebagai sistem pengoperasiannya
 <br> ●	Server User
-Perangkat yang dapat digunakan oleh pengguna adalah : 
--	Windows, Linux, MacOs, Android sebagai sistem operasi untuk menjalankannya
--	Chrome, Mozilla, Opera, Internet Explorer untuk menjalankan operasinya
+	Perangkat yang dapat digunakan oleh pengguna adalah : 
+<br> 		- Windows, Linux, MacOs, Android sebagai sistem operasi untuk menjalankannya
+<br>		- Chrome, Mozilla, Opera, Internet Explorer untuk menjalankan operasinya
+<br>
+<br>
 3.	External Interface Requirements
+<br>
+<br>
 3.1	User Interfaces
-<Describe the logical characteristics of each interface between the software product and the users. This may include sample screen images, any GUI standards or product family style guides that are to be followed, screen layout constraints, standard buttons and functions (e.g., help) that will appear on every screen, keyboard shortcuts, error message display standards, and so on. Define the software components for which a user interface is needed. Details of the user interface design should be documented in a separate user interface specification.>
+<br> Describe the logical characteristics of each interface between the software product and the users. This may include sample screen images, any GUI standards or product family style guides that are to be followed, screen layout constraints, standard buttons and functions (e.g., help) that will appear on every screen, keyboard shortcuts, error message display standards, and so on. Define the software components for which a user interface is needed. Details of the user interface design should be documented in a separate user interface specification.
+<br>	
+<br>
 3.2	Hardware Interfaces
-Antarmuka perangkat keras yang digunakan:
-1.	HP, PC, Laptop untuk membuka website dan mengedit desain
+<br> Antarmuka perangkat keras yang digunakan:
+<br> 1.	HP, PC, Laptop untuk membuka website dan mengedit desain
+<br>
+<br>
 3.3	Software Interfaces
-Antarmuka perangkat lunak yang digunakan:
-1)	Windows, Linux, MacOs, Android sebagai sistem operasi untuk menjalankannya
-2)	Chrome, Mozilla, Opera, Internet Explorer untuk menjalankan operasinya
+<br> Antarmuka perangkat lunak yang digunakan:
+<br> 1)	Windows, Linux, MacOs, Android sebagai sistem operasi untuk menjalankannya
+<br> 2)	Chrome, Mozilla, Opera, Internet Explorer untuk menjalankan operasinya
+<br>
+<br> 
 4.	System Features
-Fitur Sistem yang ada di website kami:
+<br> Fitur Sistem yang ada di website kami:
+<br>
+<br>
 4.1	Homepage / Halaman Utama
-4.1.1	Description and Priority
-Halaman utama menampilkan halaman utama skena itu sendiri dengan menu yang tersedia yakni menu home, logo, desain, sign up, dan tombol menekan desain.
-4.1.2	Stimulus/Response Sequences
-Stimulus 1: Admin, penjual ataupun pembeli membuka website 
-Respon 1: Sistem menampilkan halaman utama skena
-Stimulus 2: Penjual menekan button design
-Respon 2: Sistem akan membukakan halaman untuk mengedit desain
-Stimulus 3: Admin, penjual ataupun pembeli menekan halaman logo
-Respon 3: Sistem akan menampikan halaman berbagai desain logo (yang mana logo ini menjadi sauatu ikon desain paling utama skena)
-Stimulus 4: Admin, penjual ataupun pembeli menekan halaman desain
-Respon 4: Sistem menampilkan halaman dengan berbagai desain yang ada di skena
-Stimulus 5: Penjual dan pembeli sign up
-Respon 5: Sistem menampilkan halaman sign up hanya untuk penjual dan pembeli
-
+<br>
+<br> 4.1.1	Description and Priority
+<br> Halaman utama menampilkan halaman utama skena itu sendiri dengan menu yang tersedia yakni menu home, logo, desain, sign up, dan tombol menekan desain.
+<br> 
+<br> 4.1.2	Stimulus/Response Sequences
+<br> Stimulus 1: Admin, penjual ataupun pembeli membuka website 
+<br> Respon 1: Sistem menampilkan halaman utama skena
+<br> Stimulus 2: Penjual menekan button design
+<br> Respon 2: Sistem akan membukakan halaman untuk mengedit desain
+<br> Stimulus 3: Admin, penjual ataupun pembeli menekan halaman logo
+<br> Respon 3: Sistem akan menampikan halaman berbagai desain logo (yang mana logo ini menjadi sauatu ikon desain paling utama skena)
+<br> Stimulus 4: Admin, penjual ataupun pembeli menekan halaman desain
+<br> Respon 4: Sistem menampilkan halaman dengan berbagai desain yang ada di skena
+<br> Stimulus 5: Penjual dan pembeli sign up
+<br> Respon 5: Sistem menampilkan halaman sign up hanya untuk penjual dan pembeli
+<br>
+<br>
 4.1.3	Functional Requirements
 Halaman Utama	Admin, penjual, pembeli	Membuka website
 	sistem	Membuka website
@@ -133,33 +147,49 @@ Halaman Utama	Admin, penjual, pembeli	Membuka website
 	Admin, penjual, pembeli	Menekan menu logo
 	sistem	Mengarahkan ke halaman yang penuh desain/referensi logo 
 	penjual, pembeli	Sign Up
-	sistem	Memberikan halaman sign up. 
-
+	sistem	Memberikan halaman sign up.
+<br>
+<br>
 4.2	System Feature 2 (and so on)
+<br>
+<br>
 5.	Other Nonfunctional Requirements
+<br>
+<br>
 5.1	Performance Requirements
-•	Kecepatan memuat halaman
-•	Responsif, yakni dapat dikases dengan baik di berbagai perangkat
-•	Kineja server, server harus mampu menangani lalu lintas website yang baik
-•	Optimalisasi web, harus mengoptimalkan web agar tidak terjadi perlambatan 
+<br> •	Kecepatan memuat halaman
+<br> •	Responsif, yakni dapat dikases dengan baik di berbagai perangkat
+<br> •	Kineja server, server harus mampu menangani lalu lintas website yang baik
+<br> •	Optimalisasi web, harus mengoptimalkan web agar tidak terjadi perlambatan 
+<br>
+<br>
 5.2	Safety Requirements
-•	Monitoring Keamanan setiap beberapa bulan sekali (3 buklan sekali)
-•	Autentikasi Ganda, kami akan meminta pengguna untuk memverifikasi apakah email dan nomor telp yang digunakan untuk sign up / sign in adalah benar
-•	Backup rutin tiap beberapa bulan sekali (3 bulan sekali)
+<br> •	Monitoring Keamanan setiap beberapa bulan sekali (3 buklan sekali)
+<br> •	Autentikasi Ganda, kami akan meminta pengguna untuk memverifikasi apakah email dan nomor telp yang digunakan untuk sign up / sign in adalah benar
+<br> •	Backup rutin tiap beberapa bulan sekali (3 bulan sekali)
+<br>
+<br>
 5.3	Security Requirements
-•	Manajemen kata sandi, kami akan menyarankan sandi dengan pola yang kompleks dan rumit, tetapi user dapat menambahkan sesuai keinginannya
-•	Pembaruan perangkat lunak menandakan terdapat versi terbaru dari pengembangan website kami
+<br> •	Manajemen kata sandi, kami akan menyarankan sandi dengan pola yang kompleks dan rumit, tetapi user dapat menambahkan sesuai keinginannya
+<br> •	Pembaruan perangkat lunak menandakan terdapat versi terbaru dari pengembangan website kami
+<br>
+<br>
 5.4	Software Quality Attributes
-•	Performa, Dapat merespon pembuatan desain atau perubahan pembuatan desain, merespon pembayaran, dll dengan cepat
-•	Keamanan, melalui login dan registrasi yang diharuskan mengirimkan kode kepada sang regis baik melalui email ataupun wa 
-•	
+<br> •	Performa, Dapat merespon pembuatan desain atau perubahan pembuatan desain, merespon pembayaran, dll dengan cepat
+<br> •	Keamanan, melalui login dan registrasi yang diharuskan mengirimkan kode kepada sang regis baik melalui email ataupun wa 
+<br> •
+<br>
+<br>
 5.5	Business Rules
-<List any operating principles about the product, such as which individuals or roles can perform which functions under specific circumstances. These are not functional requirements in themselves, but they may imply certain functional requirements to enforce the rules.>
+<br> List any operating principles about the product, such as which individuals or roles can perform which functions under specific circumstances. These are not functional requirements in themselves, but they may imply certain functional requirements to enforce the rules.
+<br>
+<br>
 6.	Other Requirements
-<Define any other requirements not covered elsewhere in the SRS. This might include database requirements, internationalization requirements, legal requirements, reuse objectives for the project, and so on. Add any new sections that are pertinent to the project.>
-Appendix A: Glossary
-<Define all the terms necessary to properly interpret the SRS, including acronyms and abbreviations. You may wish to build a separate glossary that spans multiple projects or the entire organization, and just include terms specific to a single project in each SRS.>
-Appendix B: Analysis Models
+<br> Define any other requirements not covered elsewhere in the SRS. This might include database requirements, internationalization requirements, legal requirements, reuse objectives for the project, and so on. Add any new sections that are pertinent to the project.>
+<br> Appendix A: Glossary
+<br> Define all the terms necessary to properly interpret the SRS, including acronyms and abbreviations. You may wish to build a separate glossary that spans multiple projects or the entire organization, and just include terms specific to a single project in each SRS.
+
+<br> Appendix B: Analysis Models
 Use Case Diagram
  
 
@@ -174,6 +204,5 @@ Desain Website
  
 
  
-
 Appendix C: To Be Determined List
-<Collect a numbered list of the TBD (to be determined) references that remain in the SRS so they can be tracked to closure.>
+<br> <Collect a numbered list of the TBD (to be determined) references that remain in the SRS so they can be tracked to closure.>
