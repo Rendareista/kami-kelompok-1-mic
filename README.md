@@ -91,9 +91,10 @@ Memberikan feedback Mengedit, membuat feedback terkait desain, terkait kecepatan
 <br>
 <br>
 2. 4	Operating Environment
-●	Server Operasi
+<br> ●	Server Operasi
+<br>	
 Server website mengadopsi windows sebagai sistem pengoperasiannya
-●	Server User
+<br> ●	Server User
 Perangkat yang dapat digunakan oleh pengguna adalah : 
 -	Windows, Linux, MacOs, Android sebagai sistem operasi untuk menjalankannya
 -	Chrome, Mozilla, Opera, Internet Explorer untuk menjalankan operasinya
