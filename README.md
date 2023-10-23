@@ -64,6 +64,8 @@ Name	Date	Reason For Changes	Version
 | Kategori Pengguna | Tugas | Hak Akses ke aplikasi | Kemampuan yang harus dimiliki |
 |-------------------|-------|-----------------------|-------------------------------|
 | Admin |Melihat Laporan |Memasukkan, Edit, Menghapus Data | Memantau laporan hasil penjualan, Edit akun penjual, Memasukkan, Edit, Menghapus Data, Mengedit akun penjual, menghapus yang tidak sesuai dengan perjanjian kerjasama mitra|
+
+
 	Edit produk	Memasukkan, Edit, Menghapus Data produk	Memantau produk agar tidak terjadi plagiarisme
 	Mengirim notifikasi ke penjual, pembeli	Mengatur, mengedit, memberikan notifikasi terkait update website, produk, atau mitra	Memantau perubahan secara real time Penjual	
 Melihat Laporan	Memasukkan, Edit, Menghapus Data 
