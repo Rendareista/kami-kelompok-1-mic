@@ -45,8 +45,8 @@ Name	Date	Reason For Changes	Version
 1. 3	Intended Audience and Reading Suggestions
 <p>Website Skena diperuntukkan untuk para pedesain, terutama mahasiswa DKV yang ingin mengambangkan bakat nya dalam mendesain dengan penghasilan yang didapatkan dapat membatu mahasiswa ketika berkuliah. Selain itu, kami mendukung adanya UKM / Warga / masyarakat yang ingin belajar mendesain sekaligus belajar menggunakan teknologi internet dalam melakukan jual beli jasa desain ini.</p>
 <br>
+
 2.	**Overall Description**
-<br>
 <br>
 2. 1	Product Perspective
 <p>Website ini bernama SKENA. Skena merupakan website yang memiliki peran sebagai jasa pembuatan dan penjualan desain. Website Skena memberikan banyak peluang untuk orang-orang terutama mahasiswa DKV yang memiliki keahlian dalam membuat desain, baik desain baju, logo, poster, bahkan desain apapun untuk menjualkan desainnya. Website Skena berfokuskan kepada mahasiswa DKV yang mana dapat membantu mahasiswa DKV memiliki nilai jual dan peluang usaha yang sesuai dengan setiap desain yang dibuatnya. Tak hanya mahasiswa DKV, setiap orang yang memiliki minat dan bakat dalam mendesain produk, dapat menggunakan website Skena. </p>
@@ -61,35 +61,22 @@ Name	Date	Reason For Changes	Version
 <br>
 2. 3	User Classes and Characteristics
 <br>
+
 | Kategori Pengguna | Tugas | Hak Akses ke aplikasi | Kemampuan yang harus dimiliki |
 |-------------------|-------|-----------------------|-------------------------------|
-| Admin |Melihat Laporan |Memasukkan, Edit, Menghapus Data | Memantau laporan hasil penjualan, Edit akun penjual, Memasukkan, Edit, Menghapus Data, Mengedit akun penjual, menghapus yang tidak sesuai dengan perjanjian kerjasama mitra|
-
-
-	Edit produk	Memasukkan, Edit, Menghapus Data produk	Memantau produk agar tidak terjadi plagiarisme
-	Mengirim notifikasi ke penjual, pembeli	Mengatur, mengedit, memberikan notifikasi terkait update website, produk, atau mitra	Memantau perubahan secara real time Penjual	
-Melihat Laporan	Memasukkan, Edit, Menghapus Data 
-Memantau, mengedit laporan hasil penjualan
-Edit Produk
-Memasukkan, Edit, Menghapus Data produk	Membuat desain produk
-Melihat pesanan yang masuk
-Memasukkan, Edit, Menghapus Data pesanan
-Memantau, memberikan konfirmasi terkait pemesanan produk klien
-Mengirim pesan ke pembeli
-Mengirim pesan terkait desain yang dipesan oleh klien
-Memberikan pesan secara fast kepada klien
-Pembeli	Melihat produk
-Melihat produk
-Melihat produk desain yang ada
-Memilih produk
-Memilih produk untuk disimpan, disukai, dimasukkan keranjang
-Memilih desain yang sesuai dengan keinginan
-Melakukan pembayaran
-Melakukan pembayaran / checkout	Membayar sesuai harga desain menggunakan apl yang tersedia 
-Melihat status pesanan	Melihat status pesanan apakah desain sudah terkonfirmasi terjual
-Melihat status pesanan dengan seksama
-Memberikan feedback Mengedit, membuat feedback terkait desain, terkait kecepatan penjual menjual
- Memberikan feedback yang sesuai
+| Admin	|Melihat Laporan | Memasukkan, Edit, Menghapus Data | Memantau laporan hasil penjualan |
+|| Edit akun penjual | Memasukkan, Edit, Menghapus Data | Mengedit akun penjual, menghapus yang tidak sesuai dengan perjanjian kerjasama mitra|
+||Edit produk|Memasukkan, Edit, Menghapus Data produk|Memantau produk agar tidak terjadi plagiarisme|
+||Mengirim notifikasi ke penjual, pembeli|Mengatur, mengedit, memberikan notifikasi terkait update website, produk, atau mitra|Memantau perubahan secara real time|
+|Penjual|Melihat Laporan|Memasukkan, Edit, Menghapus Data|Memantau, mengedit laporan hasil penjualan|
+||Edit Produk|Memasukkan, Edit, Menghapus Data produk|Membuat desain produk|
+||Melihat pesanan yang masuk|Memasukkan, Edit, Menghapus Data pesanan|Memantau, memberikan konfirmasi terkait pemesanan produk klien|
+||Mengirim pesan ke pembeli|Mengirim pesan terkait desain yang dipesan oleh klien|Memberikan pesan secara fast kepada klien|
+|Pembeli|Melihat produk|Melihat produk|Melihat produk desain yang ada|
+||Memilih produk|Memilih produk untuk disimpan, disukai, dimasukkan keranjang|Memilih desain yang sesuai dengan keinginan|
+||Melakukan pembayaran|Melakukan pembayaran / checkout|Membayar sesuai harga desain menggunakan apl yang tersedia|
+||Melihat status pesanan|Melihat status pesanan apakah desain sudah terkonfirmasi terjual|Melihat status pesanan dengan seksama|
+||Memberikan feedback|Mengedit, membuat feedback terkait desain, terkait kecepatan penjual menjual|Memberikan feedback yang sesuai|
 <br>
 <br>
 2. 4	Operating Environment
@@ -101,8 +88,9 @@ Memberikan feedback Mengedit, membuat feedback terkait desain, terkait kecepatan
 <br>		- Chrome, Mozilla, Opera, Internet Explorer untuk menjalankan operasinya
 <br>
 <br>
-3.	External Interface Requirements
-<br>
+
+
+3.	**External Interface Requirements**
 <br>
 3.1	User Interfaces
 <br> Describe the logical characteristics of each interface between the software product and the users. This may include sample screen images, any GUI standards or product family style guides that are to be followed, screen layout constraints, standard buttons and functions (e.g., help) that will appear on every screen, keyboard shortcuts, error message display standards, and so on. Define the software components for which a user interface is needed. Details of the user interface design should be documented in a separate user interface specification.
@@ -118,10 +106,10 @@ Memberikan feedback Mengedit, membuat feedback terkait desain, terkait kecepatan
 <br> 1)	Windows, Linux, MacOs, Android sebagai sistem operasi untuk menjalankannya
 <br> 2)	Chrome, Mozilla, Opera, Internet Explorer untuk menjalankan operasinya
 <br>
-<br> 
-4.	System Features
-<br> Fitur Sistem yang ada di website kami:
 <br>
+
+4.	**System Features**
+<br> Fitur Sistem yang ada di website kami:
 <br>
 4.1	Homepage / Halaman Utama
 <br>
@@ -155,8 +143,8 @@ Halaman Utama	Admin, penjual, pembeli	Membuka website
 4.2	System Feature 2 (and so on)
 <br>
 <br>
-5.	Other Nonfunctional Requirements
-<br>
+
+5.	**Other Nonfunctional Requirements**
 <br>
 5.1	Performance Requirements
 <br> •	Kecepatan memuat halaman
@@ -186,7 +174,8 @@ Halaman Utama	Admin, penjual, pembeli	Membuka website
 <br> List any operating principles about the product, such as which individuals or roles can perform which functions under specific circumstances. These are not functional requirements in themselves, but they may imply certain functional requirements to enforce the rules.
 <br>
 <br>
-6.	Other Requirements
+
+6.	**Other Requirements**
 <br> Define any other requirements not covered elsewhere in the SRS. This might include database requirements, internationalization requirements, legal requirements, reuse objectives for the project, and so on. Add any new sections that are pertinent to the project.>
 <br> Appendix A: Glossary
 <br> Define all the terms necessary to properly interpret the SRS, including acronyms and abbreviations. You may wish to build a separate glossary that spans multiple projects or the entire organization, and just include terms specific to a single project in each SRS.
