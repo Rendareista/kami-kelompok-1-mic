@@ -130,21 +130,27 @@ Name	Date	Reason For Changes	Version
 <br>
 <br>
 4.1.3	Functional Requirements
-Halaman Utama	Admin, penjual, pembeli	Membuka website
-	sistem	Membuka website
-	penjual	Membuat desain
-	sistem	Mengarahkan ke halaman membuat desain
-	Admin, penjual, pembeli	Menekan menu logo
-	sistem	Mengarahkan ke halaman yang penuh desain/referensi logo 
-	penjual, pembeli	Sign Up
-	sistem	Memberikan halaman sign up.
+
+   
+|Halaman Utama|||
+|-------------|-----------------------|---------------|
+||Admin, penjual, pembeli|Membuka website|
+||sistem|Membuka website|
+||penjual|Membuat desain|
+||sistem|Mengarahkan ke halaman membuat desain|
+||Admin, penjual, pembeli|Menekan menu logo|
+||sistem|Mengarahkan ke halaman yang penuh desain/referensi logo| 
+||penjual, pembeli|Sign Up|
+||sistem|Memberikan halaman sign up|
+
+ 
 <br>
 <br>
 4.2	System Feature 2 (and so on)
 <br>
 <br>
 
-5.	**Other Nonfunctional Requirements**
+6.	**Other Nonfunctional Requirements**
 <br>
 5.1	Performance Requirements
 <br> •	Kecepatan memuat halaman
@@ -175,7 +181,7 @@ Halaman Utama	Admin, penjual, pembeli	Membuka website
 <br>
 <br>
 
-6.	**Other Requirements**
+7.	**Other Requirements**
 <br> Define any other requirements not covered elsewhere in the SRS. This might include database requirements, internationalization requirements, legal requirements, reuse objectives for the project, and so on. Add any new sections that are pertinent to the project.>
 <br> Appendix A: Glossary
 <br> Define all the terms necessary to properly interpret the SRS, including acronyms and abbreviations. You may wish to build a separate glossary that spans multiple projects or the entire organization, and just include terms specific to a single project in each SRS.
