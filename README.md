@@ -178,6 +178,31 @@ Name	Date	Reason For Changes	Version
 ||penjual, pembeli|Sign Up|
 ||sistem|Memberikan halaman sign up|
 
+
+<br> 
+<br>
+4.3 	Desain Baju
+<br>
+<br> 	4.3.1	Description and Priority
+<br>	Dalam menu ini berisi semua desain baju yang ada untuk dijual
+<br>
+<br>	4.3.2	Stimulus / Response Sequences
+<br>	Stimulus 1: Admin, penjual ataupun pembeli membuka website 
+<br> 	Respon 1: Sistem menampilkan desain baju website
+<br> 	Stimulus 2: Admin melihat halaman desain baju, mengedit halaman desain baju, menghapus desain baju, mengatur lokasi desain baju
+<br>	Respon 2: Sistem mengedit, menghapus halaman desain baju
+<br>	Stimulus 3: Penjual melihat halaman desain baju, meengedit halaman desain bajunya sendiri (tokonya sendiri), mengatur lokasi desain bajunya sendiri
+<br>	Respon 3: Sistem menampilkan halaman desain, mengedit halaman desain baju penjual sendiri, mengatur lokasi desain bajunya sendiri
+<br>	Stimulus 4: Pembeli/pelanggan melihat halaman desian baju, melihat info desain baju
+<br>	Respon 5: Sistem menamplikan halaman desain baju, memperlihatkan infromasi informasi yang tertea di deain baju
+<br>
+<br>
+<br>	Functional Requirements
+
+|Halaman Utama|Aktor|Aksi|
+|--------------|-----------------------|--------------------|
+||Admin, Pnejual, Pembeli|membuka website
+
 5.	**Other Nonfunctional Requirements**
 <br>
 5.1	Performance Requirements
