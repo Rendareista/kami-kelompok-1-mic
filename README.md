@@ -197,7 +197,7 @@ Use Case Diagram
 
 Flowchart
 
-![alt text]
+![alt text](https://github.com/Rendareista/kami-kelompok-1-mic/blob/main/flowchart.png)
  
 
 
