@@ -354,9 +354,8 @@ Appendix D: Source Code dan Penjelasan
 <br> - <meta charset="UTF-8">: Ini mengatur pengkodean karakter untuk halaman HTML ke UTF-8, yang umumnya digunakan untuk mendukung karakter khusus dan multi-bahasa.
 <br> - <meta name="viewport" content="width=device-width, initial-scale=1.0">: Ini adalah tag meta viewport yang membantu dalam menyesuaikan tampilan halaman ke ukuran perangkat pengguna.
 <br> - <title>Skena.</title>: Ini adalah judul halaman web yang akan ditampilkan pada tab browser.
-<br> -<link rel="stylesheet" href="nyobasidebar.css">, <link rel="stylesheet" href="logodesign.css">: Ini adalah tautan ke file CSS eksternal yang digunakan untuk mengatur tampilan dan gaya halaman web.
+<br> - <link rel="stylesheet" href="nyobasidebar.css">, <link rel="stylesheet" href="logodesign.css">: Ini adalah tautan ke file CSS eksternal yang digunakan untuk mengatur tampilan dan gaya halaman web.
 <br> - <link rel="preconnect" href="https://fonts.googleapis.com">, <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>, <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">: Ini adalah tautan ke Google Fonts untuk mengimpor jenis huruf (font) yang akan digunakan dalam halaman.
-<br> - <body>: Ini adalah elemen utama yang berisi semua konten yang akan ditampilkan dalam halaman web.
-<br> - Bagian konten dalam <body>: Ini mencakup elemen-elemen seperti gambar, teks, tautan, dan lainnya yang akan ditampilkan kepada pengguna.
-<br> <script>: Ini adalah tag JavaScript yang digunakan untuk menyisipkan kode JavaScript dalam halaman web. Dalam kasus ini, Anda memuat script JavaScript dari file eksternal dengan menggunakan <script src="sidebar.js"></script>.
+<br> - <body>: Ini adalah elemen utama yang berisi semua konten yang akan ditampilkan dalam halaman web. Bagian konten dalam <body>: Ini mencakup elemen-elemen seperti gambar, teks, tautan, dan lainnya yang akan ditampilkan kepada pengguna.
+<br> - <script>: Ini adalah tag JavaScript yang digunakan untuk menyisipkan kode JavaScript dalam halaman web. Dalam kasus ini, Anda memuat script JavaScript dari file eksternal dengan menggunakan <script src="sidebar.js"></script>.
 
