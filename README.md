@@ -132,7 +132,7 @@ Name	Date	Reason For Changes	Version
 4.1.3	Functional Requirements
 
    
-|Halaman Utama|||
+|Halaman Utama|Aktor|Aksi|
 |-------------|-----------------------|---------------|
 ||Admin, penjual, pembeli|Membuka website|
 ||sistem|Membuka website|
