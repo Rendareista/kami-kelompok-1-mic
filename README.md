@@ -162,6 +162,21 @@ Name	Date	Reason For Changes	Version
 <br> 	Respon 4: Sistem menampilkan halaman dengan berbagai desain yang ada di skena
 <br> 	Stimulus 5: Penjual dan pembeli sign up
 <br> 	Respon 5: Sistem menampilkan halaman sign up hanya untuk penjual dan pembeli
+<br>
+<br>
+4.2.3	Functional Requirements
+
+   
+|Halaman Utama|Aktor|Aksi|
+|-------------|-----------------------|---------------|
+||Admin, penjual, pembeli|Membuka website|
+||sistem|Membuka website|
+||penjual|Membuat desain|
+||sistem|Mengarahkan ke halaman membuat desain|
+||Admin, penjual, pembeli|Menekan menu logo|
+||sistem|Mengarahkan ke halaman yang penuh desain/referensi logo| 
+||penjual, pembeli|Sign Up|
+||sistem|Memberikan halaman sign up|
 
 5.	**Other Nonfunctional Requirements**
 <br>
