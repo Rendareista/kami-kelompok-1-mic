@@ -189,11 +189,14 @@ Name	Date	Reason For Changes	Version
 
 <br> Appendix B: Analysis Models
 Use Case Diagram
-![alt text]
+
+![alt text](https://github.com/Rendareista/kami-kelompok-1-mic/blob/main/usecase.png)
+
 
 
 
 Flowchart
+
 ![alt text]
  
 
