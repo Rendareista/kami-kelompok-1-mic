@@ -204,5 +204,147 @@ Desain Website
 Appendix C: To Be Determined List
 <br> <Collect a numbered list of the TBD (to be determined) references that remain in the SRS so they can be tracked to closure.>
 
-Appendix D: Source Code
-<br> 
+Appendix D: Source Code dan Penjelasan
+<br> Berikut adalah index / homepage ketika memasuki web kami:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skena.</title>
+    <!--Fonts Google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+    <!--Style-->
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="sidebar">
+            <div class="header">
+                <div class="list-item">
+                    <a href="#">
+                        <img src="logo.PNG" alt="" class="icon">
+                        <span class="description-header">K E N A.</span>
+                    </a>    
+                </div>
+                <div class="illustration">
+                    <img src="ilustrasi.PNG" width="180" height="120" alt="">
+                </div>
+            </div>
+            <div class="main">
+                <div class="list-item">
+                    <a href="#">
+                        <img src="Frame 1.svg" alt="" class="">
+                        <span class="description">Dashboard</span>
+                    </a>
+                </div>
+            </div>
+            <div class="main">
+                <div class="list-item">
+                    <a href="clothesdesign.html">
+                        <img src="Frame 1.svg" alt="" class="">
+                        <span class="description">Design Baju</span>
+                    </a>
+                </div>
+            </div>
+            <div class="main">
+                <div class="list-item">
+                    <a href="clothesdesign.html">
+                        <img src="Frame 1.svg" alt="" class="">
+                        <span class="description">Design Logo</span>
+                    </a>
+                </div>
+            </div>
+            <div class="main">
+                <div class="list-item">
+                    <a href="keranjang.html">
+                        <img src="Frame 1.svg" alt="" class="">
+                        <span class="description">Keranjang</span>
+                    </a>
+                </div>
+            </div>
+            <div class="main">
+                <div class="list-item">
+                    <a href="pesanan.html">
+                        <img src="Frame 1.svg" alt="" class="">
+                        <span class="description">Pesanan</span>
+                    </a>
+                </div>
+            </div>
+            <div class="main">
+                <div class="list-item">
+                    <a href="#">
+                        <img src="Frame 1.svg" alt="" class="">
+                        <span class="description">Ulasan</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            
+            <div id="menu-button">
+                <input type="checkbox" id="menu-checkbox">
+                <label for="menu-checkbox"  id="menu-label">
+                    <div id="hamburger"></div>
+                </label>
+            </div>
+            <div class="body">
+                <div class="product-display">
+                    <div class="product">
+                        <img src="kaos1.png" alt="Product 1"
+                        width="100%">
+                        <h3>Skeleton Negetive</h3>
+                        <p>Description of Product 1.</p>
+                        <span>$19.99</span>
+                    </div>
+
+                    <div class="product">
+                        <img src="hodie1.png" alt="Product 2"
+                        width="100%" >
+                        <h3>Hodie Your Brand</h3>
+                        <p>Description of Product 2.</p>
+                        <span>$24.99</span>
+                    </div>
+
+                    <div class="product">
+                        <img src="kaos 3.png" alt="Product 3"
+                        width="100%">
+                        <h3>Falcon Your Brand</h3>
+                        <p>Description of Product 2.</p>
+                        <span>$20.99</span>
+                    </div>
+
+                    <div class="product">
+                        <img src="kaos2.png" alt="Product 4" 
+                        width="100%">
+                        <h3>Lips Your Brand</h3>
+                        <p>Description of Product 2.</p>
+                        <span>$24.99</span>
+                    </div>
+
+                    <div class="product">
+                        <img src="logo1.png" alt="Product 5"
+                        width="100%">
+                        <h3>Chicken Logo</h3>
+                        <p>Description of Product 2.</p>
+                        <span>$24.99</span>
+                    </div>
+
+                    <div class="product">
+                        <img src="logo2.png" alt="Product 6"
+                        width="100%">
+                        <h3>Delicious Logo</h3>
+                        <p>Description of Product 2.</p>
+                        <span>$24.99</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="sidebar.js"></script>
+</body>
+</html>
+
