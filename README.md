@@ -201,7 +201,14 @@ Name	Date	Reason For Changes	Version
 
 |Halaman Utama|Aktor|Aksi|
 |--------------|-----------------------|--------------------|
-||Admin, Pnejual, Pembeli|membuka website
+||Admin, Penjual, Pembeli|membuka halaman desain baju|
+||Sistem|menampilkan halaman desain baju|
+||Admin|Lihat, Edit, Hapus, Atur desain baju|
+||Sistem|Edit, hapus, atur desian baju|
+||Penjual|Lihat, Edit toko masing-masing, atur desain baju masing-masing|
+||Sistem|menampilkan halaman desain, mengedit halaman desain baju penjual sendiri, mengatur lokasi desain bajunya sendiri|
+||Pembeli|Lihat, melihat informasi desain baju|
+||Sistem|Lihat, menampilkan informasi dari halaman itu|
 
 5.	**Other Nonfunctional Requirements**
 <br>
