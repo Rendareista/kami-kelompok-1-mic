@@ -111,7 +111,7 @@ Name	Date	Reason For Changes	Version
 4.	**System Features**
 <br> Fitur Sistem yang ada di website kami:
 <br>
-4.1	Homepage / Halaman Utama
+4.1	Homepage / Halaman Utama (index)
 <br>
 <br> 4.1.1	Description and Priority
 <br> Halaman utama menampilkan halaman utama skena itu sendiri dengan menu yang tersedia yakni menu home, logo, desain, sign up, dan tombol menekan desain.
