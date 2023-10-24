@@ -189,11 +189,12 @@ Name	Date	Reason For Changes	Version
 
 <br> Appendix B: Analysis Models
 Use Case Diagram
- 
+![alt text]
 
 
 
 Flowchart
+![alt text]
  
 
 
