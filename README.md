@@ -146,9 +146,10 @@ Name	Date	Reason For Changes	Version
  
 <br>
 <br>
-4.2	System Feature 2 (and so on)
+4.2	Dashboard
 <br>
-<br>
+<br>	4.2.1	Description dan Priority
+<br> 	Dashboard berisi....
 
 5.	**Other Nonfunctional Requirements**
 <br>
