@@ -149,7 +149,10 @@ Name	Date	Reason For Changes	Version
 4.2	Dashboard
 <br>
 <br>	4.2.1	Description dan Priority
-<br> 	Dashboard berisi....
+<br> 	Dashboard sama dengan homepage, ketika anda memasuki homepage, maka sudah memasuki dashboard juga.
+<br>
+<br>	4.2.2	Stimulus / Response Sequences
+<br> 	Stimulus 1 : 
 
 5.	**Other Nonfunctional Requirements**
 <br>
