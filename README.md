@@ -152,7 +152,16 @@ Name	Date	Reason For Changes	Version
 <br> 	Dashboard sama dengan homepage, ketika anda memasuki homepage, maka sudah memasuki dashboard juga.
 <br>
 <br>	4.2.2	Stimulus / Response Sequences
-<br> 	Stimulus 1 : 
+<br>	Stimulus 1: Admin, penjual ataupun pembeli membuka website 
+<br> 	Respon 1: Sistem menampilkan halaman utama skena
+<br> 	Stimulus 2: Penjual menekan button design
+<br> 	Respon 2: Sistem akan membukakan halaman untuk mengedit desain
+<br> 	Stimulus 3: Admin, penjual ataupun pembeli menekan halaman logo
+<br> 	Respon 3: Sistem akan menampikan halaman berbagai desain logo (yang mana logo ini menjadi sauatu ikon desain paling utama skena)
+<br> 	Stimulus 4: Admin, penjual ataupun pembeli menekan halaman desain
+<br> 	Respon 4: Sistem menampilkan halaman dengan berbagai desain yang ada di skena
+<br> 	Stimulus 5: Penjual dan pembeli sign up
+<br> 	Respon 5: Sistem menampilkan halaman sign up hanya untuk penjual dan pembeli
 
 5.	**Other Nonfunctional Requirements**
 <br>
