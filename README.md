@@ -347,4 +347,14 @@ Appendix D: Source Code dan Penjelasan
     <script src="sidebar.js"></script>
 </body>
 </html>
+<br> Penjelasan Index:
+<!DOCTYPE html>: Ini adalah deklarasi dokumen yang menginformasikan browser bahwa halaman ini menggunakan standar HTML.
+
+<html lang="en">: Ini adalah elemen root yang mengawali seluruh dokumen HTML. lang="en" mengindikasikan bahwa bahasa yang digunakan dalam dokumen ini adalah bahasa Inggris.
+
+<head>: Bagian ini berisi informasi tentang halaman, seperti charset, viewport, judul halaman, dan tautan ke file eksternal (CSS dan JavaScript).
+
+<meta charset="UTF-8">: Ini mengatur pengkodean karakter untuk halaman HTML ke UTF-8, yang umumnya digunakan untuk mendukung karakter khusus dan multi-bahasa.
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">: Ini adalah tag meta viewport yang membantu dalam menyesuaikan tampilan halaman ke ukuran perangkat pengguna.
 
