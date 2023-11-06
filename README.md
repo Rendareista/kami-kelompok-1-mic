@@ -1688,7 +1688,7 @@ button {
     cursor: pointer;
 }
 
-Penjelasan:
+<br>	Penjelasan:
 1.	body: Mengatur properti-properti tampilan untuk seluruh halaman web.
 •	font-family: Menentukan jenis font yang digunakan untuk teks dalam halaman.
 •	margin-left dan margin-right: Mengatur margin kiri dan kanan halaman.
