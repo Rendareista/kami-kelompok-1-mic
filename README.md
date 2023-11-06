@@ -280,6 +280,38 @@ Name	Date	Reason For Changes	Version
 
 <br>
 <br>
+4.6 	Pesanan
+<br>
+<br>	4.6.1 Description and priority
+<br>	
+<br>	Menu Pesanan yang berisi pesanan apa saja yang telah dipesan
+<br>
+<br>	4.6.2 Stimulus/response sequences
+<br>	Stimulus 1: Pembeli mengeklik fitur pesanan
+<br>	Response 1: Sistem menampilkan fitur pesanan
+<br>	Stimulus 2: Pembeli memilih pesanan tertentu
+<br>	Response 2: Sistem menampilkan detail pesanan
+<br>	Stimulus 3: Pembeli mengeklik tombo lacal pesanan
+<br>	Response 3: Sistem menampilkan halaman lacak pesanan sampai mana pesanan itu
+<br>	Stimulus 4: Pembeli mengeklik cetak invoice
+<br>	Response 4: Sistem menampilkan invoice baik dalam pdf atau format yanng ada
+<br>
+<br>
+<br>	Functional Requirements
+
+|Pesanan|Aktor|Aksi|
+|--------------------|-------------------|-----------------------|
+||Pembeli|Klik menu pesanan|
+||Sistem|Menampilkan menu pesanan|
+||Pembeli|Memilih pesanan tertentu|
+||Sistem|Menampilkan detail pesanan yang dipilih|
+||Pembeli|Klik tombol lacak pesanan|
+||Sistem|Menampilkan halaman lacak pesanan|
+||Pembeli|Klik cetak invoice|
+||Sistem|menampilkan invoice|
+
+<br>
+<br>
 
 5.	**Other Nonfunctional Requirements**
 <br>
