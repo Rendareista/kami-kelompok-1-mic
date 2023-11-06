@@ -199,7 +199,7 @@ Name	Date	Reason For Changes	Version
 <br>
 <br>	Functional Requirements
 
-|Halaman Utama|Aktor|Aksi|
+|Desain Baju|Aktor|Aksi|
 |--------------|-----------------------|--------------------|
 ||Admin, Penjual, Pembeli|membuka halaman desain baju|
 ||Sistem|menampilkan halaman desain baju|
@@ -208,6 +208,37 @@ Name	Date	Reason For Changes	Version
 ||Penjual|Lihat, Edit toko masing-masing, atur desain baju masing-masing|
 ||Sistem|menampilkan halaman desain, mengedit halaman desain baju penjual sendiri, mengatur lokasi desain bajunya sendiri|
 ||Pembeli|Lihat, melihat informasi desain baju|
+||Sistem|Lihat, menampilkan informasi dari halaman itu|
+
+<br>
+<br>
+4.4	Desain Logo
+<br>
+<br>	4.4.1 Description and prioity
+<br>	Dalam menu ini berisikan semua desain logo untuk dijual
+<br>
+<br>	4.4.2 Stimulus / Response Sequnces
+<br>	Stimulus 1: Admin, penjual ataupun pembeli membuka website 
+<br> 	Respon 1: Sistem menampilkan desain logo website
+<br> 	Stimulus 2: Admin melihat halaman desain logo, mengedit halaman desain logo, menghapus desain logo, mengatur lokasi desain logo
+<br>	Respon 2: Sistem mengedit, menghapus halaman desain baju
+<br>	Stimulus 3: Penjual melihat halaman desain logo, meengedit halaman desain logonya sendiri (tokonya sendiri), mengatur lokasi desain ;ogonya sendiri
+<br>	Respon 3: Sistem menampilkan halaman desain, mengedit halaman desain logo penjual sendiri, mengatur lokasi desain logonya sendiri
+<br>	Stimulus 4: Pembeli/pelanggan melihat halaman desian logo, melihat info desain logo
+<br>	Respon 5: Sistem menamplikan halaman desain logo, memperlihatkan infromasi informasi yang tertea di deain logo
+<br>
+<br>
+<br>	Functional Requirements
+
+|Desain Logo|Aktor|Aksi|
+|--------------|-----------------------|--------------------|
+||Admin, Penjual, Pembeli|membuka halaman desain logo|
+||Sistem|menampilkan halaman desain logo|
+||Admin|Lihat, Edit, Hapus, Atur desain logo|
+||Sistem|Edit, hapus, atur desian logo|
+||Penjual|Lihat, Edit toko masing-masing, atur desain logo masing-masing|
+||Sistem|menampilkan halaman desain, mengedit halaman desain logo penjual sendiri, mengatur lokasi desain logonya sendiri|
+||Pembeli|Lihat, melihat informasi desain logo|
 ||Sistem|Lihat, menampilkan informasi dari halaman itu|
 
 5.	**Other Nonfunctional Requirements**
