@@ -278,7 +278,8 @@ Name	Date	Reason For Changes	Version
 ||Pembeli|Melanjutkan ke sistem checkout|
 ||Sistem|Menampilkan halaman checkout|
 
-
+<br>
+<br>
 
 5.	**Other Nonfunctional Requirements**
 <br>
