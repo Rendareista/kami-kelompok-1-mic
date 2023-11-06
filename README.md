@@ -167,7 +167,7 @@ Name	Date	Reason For Changes	Version
 4.2.3	Functional Requirements
 
    
-|Halaman Utama|Aktor|Aksi|
+|Dashboard|Aktor|Aksi|
 |-------------|-----------------------|---------------|
 ||Admin, penjual, pembeli|Membuka website|
 ||sistem|Membuka website|
@@ -240,6 +240,32 @@ Name	Date	Reason For Changes	Version
 ||Sistem|menampilkan halaman desain, mengedit halaman desain logo penjual sendiri, mengatur lokasi desain logonya sendiri|
 ||Pembeli|Lihat, melihat informasi desain logo|
 ||Sistem|Lihat, menampilkan informasi dari halaman itu|
+
+<br>
+<br>
+4.5	Keranjang
+<br>
+<br>	4.5.1 Description and pirority
+<br> 	Menu keranjang pemesanan
+<br>	
+<br>	4.5.2 Stimulus / Response Sequence
+<br> 	Stimulus 1: Pembeli mengeklik tombol tambahkan ke keranjang
+<br>	Response 1: Sistem menambahkan produk kedalam keranjang
+<br>	Stimulus 2: Pembeli mengeklik tombol keranjang
+<br>	Response 2: Sistem menampilkan keranjang
+<br>	Stimulus 3: Pembeli mengeklik tombol hapus dalam keranjang
+<br>	Response 3: Sistem menghapus produk yang yang dipilih
+<br>	Stimulus 4: Pembeli mengubah jumlah produk 
+<br>	Response 4: Sistem mengubah jumlah produk sesuai yang diinginkan pembeli
+<br>	Stimulus 5: Pembeli mengeklik tombol lanjutkan checkout
+<br>	Response 5: Sistem meanjutkan sesi checkout
+<br>	Stimulus 6: Pembeli kembali ke menu kembali belanja
+<br>	Response 6: Sistem mengembalikan ke tampilan dashboard
+<br>
+<br>
+<br>	Functional Requirements
+
+
 
 5.	**Other Nonfunctional Requirements**
 <br>
