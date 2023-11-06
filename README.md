@@ -264,7 +264,9 @@ Name	Date	Reason For Changes	Version
 <br>
 <br>
 <br>	Functional Requirements
+
 |Keranjang|Aktor|Aksi|
+|--------------|--------------|---------------|
 ||Pembeli|Mengeklik tombol tambah keranjang|
 ||Sistem|Menambah produk dalam keranjang|
 ||Pembeli|Mengeklik tombol keranjang|
@@ -274,7 +276,7 @@ Name	Date	Reason For Changes	Version
 ||Pembeli|Mengubah jumlah produk|
 ||Sistem|Mengubah jumlah produk|
 ||Pembeli|Melanjutkan ke sistem checkout|
-||Sistem|Menampilkan halaman checkout
+||Sistem|Menampilkan halaman checkout|
 
 
 
